@@ -16,7 +16,7 @@ This is a simple MERN (MongoDB, Express, React, Node.js) application for managin
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/simple_mern_app.git
+    git clone https://github.com/Abhijeet14d/Simple_Mern_App.git
     cd simple_mern_app
     ```
 
