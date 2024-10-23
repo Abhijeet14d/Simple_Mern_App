@@ -47,7 +47,7 @@ const Homepage = () => {
   // Add this new function for updating products
   const handleUpdate = async (productId, updatedData) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/products/${productId}`, {
+      const res = await fetch(`https://productapp-l84i.onrender.com/api/products/${productId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
