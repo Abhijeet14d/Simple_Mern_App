@@ -8,14 +8,14 @@ const Homepage = () => {
   const toast = useToast();
 
   const fetchProduct = async () => {
-    const res = await fetch("http://localhost:5000/api/products");
+    const res = await fetch("https://productapp-l84i.onrender.com/api/products");
     const data = await res.json();
     setProducts(data.data);
   }
 
   const handleDelete = async (productId) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/products/${productId}`, {
+      const res = await fetch(`https://productapp-l84i.onrender.com/api/products/${productId}`, {
         method: "DELETE",
       });
       const data = await res.json();
